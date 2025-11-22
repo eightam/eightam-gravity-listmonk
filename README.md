@@ -113,20 +113,3 @@ Permissions: only users with the `gravityforms_listmonk` capability can see and 
 - Included: `de_DE` translation (`languages/eightam-gf-listmonk-de_DE.po`)
 
 To adjust translations or generate a `.mo` file, open the `.po` file in a tool like Poedit and save/compile it. When deployed via WordPress.org, translations are typically managed via GlotPress instead.
-
-## Production considerations
-
-The plugin includes several production-ready features:
-
-- **Admin notices**: Warns administrators if credentials are missing but active feeds exist
-- **Uninstall cleanup**: Automatically removes all settings and cached data when the plugin is deleted
-- **Capability management**: Proper WordPress capability mapping ensures only authorized users can access settings
-- **Inline help**: Direct links to Listmonk documentation from the settings pages
-- **Efficient caching**: List data is cached for 10 minutes to reduce API calls
-
-Before going to production you should:
-
-- Verify end-to-end form submission against your Listmonk instance (including preconfirm/double opt-in behaviour).
-- Ensure the plugin only connects to Listmonk over HTTPS.
-- Review any Gravity Forms logging configuration to avoid retaining sensitive subscriber data longer than necessary.
-- Add automated tests or mocks for the client and feed logic if this becomes a critical integration.
