@@ -1,0 +1,23 @@
+{
+  "name": "eightam-gravity-listmonk",
+  "version": "1.0.0",
+  "description": "Gravity Forms feed add-on to push subscribers into Listmonk",
+  "scripts": {
+    "build": "bash build.sh",
+    "clean": "rm -rf build dist",
+    "version": "grep 'Version:' listmonk-gravityforms.php | awk '{print $3}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8am-ch/gravity-listmonk"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "gravity-forms",
+    "listmonk",
+    "newsletter"
+  ],
+  "author": "8am GmbH <tech@8am.ch> (https://8am.ch)",
+  "license": "GPL-2.0-or-later"
+}

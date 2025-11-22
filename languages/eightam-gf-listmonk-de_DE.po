@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Listmonk Connector 1.0.0\n"
+"POT-Creation-Date: 2025-11-22 00:00+0000\n"
+"PO-Revision-Date: 2025-11-22 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Cascade\n"
+
+#: includes/class-listmonk-addon.php:130
+msgid "Listmonk Credentials"
+msgstr "Listmonk-Zugangsdaten"
+
+#: includes/class-listmonk-addon.php:134
+msgid "Provide API details with access to create subscribers. %s"
+msgstr "Gib API-Zugangsdaten mit Berechtigung zum Erstellen von Abonnenten an. %s"
+
+#: includes/class-listmonk-addon.php:135
+msgid "Learn more about Listmonk API credentials"
+msgstr "Mehr über Listmonk-API-Zugangsdaten erfahren"
+
+#: includes/class-listmonk-addon.php:135
+msgid "Base URL"
+msgstr "Basis-URL"
+
+#: includes/class-listmonk-addon.php:143
+msgid "API Username"
+msgstr "API-Benutzername"
+
+#: includes/class-listmonk-addon.php:149
+msgid "API Key / Token"
+msgstr "API-Schlüssel / Token"
+
+#: includes/class-listmonk-addon.php:155
+msgid "Preconfirm Subscriptions by Default"
+msgstr "Abonnements standardmäßig vorbestätigen"
+
+#: includes/class-listmonk-addon.php:159
+msgid "Skip double opt-in for all feeds unless overridden."
+msgstr "Doppeltes Opt-in für alle Feeds überspringen, sofern nicht überschrieben."
+
+#: includes/class-listmonk-addon.php:179
+msgid "Feed Settings"
+msgstr "Feed-Einstellungen"
+
+#: includes/class-listmonk-addon.php:182
+msgid "Feed Name"
+msgstr "Feed-Name"
+
+#: includes/class-listmonk-addon.php:187
+msgid "Enter a name to identify this feed."
+msgstr "Name zur Identifizierung dieses Feeds eingeben."
+
+#: includes/class-listmonk-addon.php:192
+msgid "Subscriber Details"
+msgstr "Abonnenten-Details"
+
+#: includes/class-listmonk-addon.php:195
+msgid "Field Mapping"
+msgstr "Feldzuordnung"
+
+#: includes/class-listmonk-addon.php:201
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: includes/class-listmonk-addon.php:206
+msgid "Name"
+msgstr "Name"
+
+#: includes/class-listmonk-addon.php:211
+msgid "Attributes JSON"
+msgstr "Attribute (JSON)"
+
+#: includes/class-listmonk-addon.php:215
+msgid "Optional JSON object for subscriber attributes. Example: {\"city\":\"Berlin\",\"source\":\"website\"}. Supports merge tags."
+msgstr "Optionales JSON-Objekt für Abonnentenattribute. Beispiel: {\"city\":\"Berlin\",\"source\":\"website\"}. Unterstützt Merge-Tags."
+
+#: includes/class-listmonk-addon.php:222
+msgid "List Assignment"
+msgstr "Listen-Zuordnung"
+
+#: includes/class-listmonk-addon.php:225
+msgid "List Presets (Optional)"
+msgstr "Vordefinierte Listen (optional)"
+
+#: includes/class-listmonk-addon.php:231
+msgid "Hold Ctrl/Cmd to select multiple lists that will always receive the subscriber."
+msgstr "Strg/Cmd gedrückt halten, um mehrere Listen auszuwählen, die den Abonnenten immer erhalten."
+
+#: includes/class-listmonk-addon.php:235
+msgid "Dynamic List Field"
+msgstr "Dynamisches Listenfeld"
+
+#: includes/class-listmonk-addon.php:239
+msgid "Optional field whose submitted values resolve to List IDs (comma-separated, JSON, or checkbox selections)."
+msgstr "Optionales Feld, dessen übermittelte Werte List-IDs entsprechen (kommagetrennt, JSON oder Checkbox-Auswahl)."
+
+#: includes/class-listmonk-addon.php:242
+msgid "Preconfirm Subscriptions"
+msgstr "Abonnements vorbestätigen"
+
+#: includes/class-listmonk-addon.php:247
+msgid "Inherit global setting"
+msgstr "Globale Einstellung übernehmen"
+
+#: includes/class-listmonk-addon.php:251
+msgid "Always preconfirm this feed"
+msgstr "Diesen Feed immer vorbestätigen"
+
+#: includes/class-listmonk-addon.php:255
+msgid "Require confirmation (double opt-in)"
+msgstr "Bestätigung erforderlich (Double-Opt-in)"
+
+#: includes/class-listmonk-addon.php:318
+msgid "Invalid JSON format. Please provide a valid JSON object."
+msgstr "Ungültiges JSON-Format. Bitte ein gültiges JSON-Objekt angeben."
+
+#: includes/class-listmonk-addon.php:335
+msgid "Listmonk feed skipped: %s"
+msgstr "Listmonk-Feed übersprungen: %s"
+
+#: includes/class-listmonk-addon.php:344
+msgid "Listmonk feed aborted: email address missing."
+msgstr "Listmonk-Feed abgebrochen: E-Mail-Adresse fehlt."
+
+#: includes/class-listmonk-addon.php:353
+msgid "Listmonk feed skipped: no lists were selected."
+msgstr "Listmonk-Feed übersprungen: Es wurden keine Listen ausgewählt."
+
+#: includes/class-listmonk-addon.php:372
+msgid "Listmonk sync successful (HTTP %d)."
+msgstr "Listmonk-Synchronisierung erfolgreich (HTTP %d)."
+
+#: includes/class-listmonk-addon.php:376
+msgid "Listmonk sync failed: %s"
+msgstr "Listmonk-Synchronisierung fehlgeschlagen: %s"
+
+#: includes/class-listmonk-addon.php:389
+msgid "Listmonk"
+msgstr "Listmonk"
+
+#: includes/class-listmonk-addon.php:448
+msgid "Feed Name"
+msgstr "Feed-Name"
+
+#: includes/class-listmonk-addon.php:449
+msgid "Lists"
+msgstr "Listen"
+
+#: includes/class-listmonk-addon.php:460
+msgid "Unnamed Feed"
+msgstr "Unbenannter Feed"
+
+#: includes/class-listmonk-addon.php:482
+msgid "%d preset + dynamic"
+msgstr "%d Vorgabe + dynamisch"
+
+#: includes/class-listmonk-addon.php:484
+msgid "%d list"
+msgid_plural "%d lists"
+msgstr[0] "%d Liste"
+msgstr[1] "%d Listen"
+
+#: includes/class-listmonk-addon.php:486
+msgid "Dynamic only"
+msgstr "Nur dynamisch"
+
+#: includes/class-listmonk-addon.php:489
+msgid "None"
+msgstr "Keine"
+
+#: includes/class-listmonk-addon.php:590
+msgid "— None —"
+msgstr "— Keine —"
+
+#: includes/class-listmonk-addon.php:625
+msgid "— Select Lists —"
+msgstr "— Listen auswählen —"
+
+#: includes/class-listmonk-addon.php:632
+msgid "Error: %s"
+msgstr "Fehler: %s"
+
+#: includes/class-listmonk-addon.php:640
+msgid "No lists found"
+msgstr "Keine Listen gefunden"
+
+#: includes/class-listmonk-addon.php:724
+msgid "Listmonk Actions"
+msgstr "Listmonk-Aktionen"
+
+#: includes/class-listmonk-addon.php:744
+msgid "Re-run the Listmonk feed if you updated subscriber data or resolved API issues."
+msgstr "Listmonk-Feed erneut ausführen, wenn Abonnentendaten aktualisiert oder API-Probleme behoben wurden."
+
+#: includes/class-listmonk-addon.php:750
+msgid "Retry Feed"
+msgstr "Feed erneut ausführen"
+
+#: includes/class-listmonk-addon.php:762
+msgid "Insufficient permissions."
+msgstr "Unzureichende Berechtigungen."
+
+#: includes/class-listmonk-client.php:161
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-listmonk-client.php:188
+msgid "Unexpected Listmonk response (HTTP %d)"
+msgstr "Unerwartete Listmonk-Antwort (HTTP %d)"
+
+#: includes/class-listmonk-addon.php:145
+msgid "The full URL to your Listmonk installation, including https://"
+msgstr "Die vollständige URL zu deiner Listmonk-Installation, einschließlich https://"
+
+#: includes/class-listmonk-addon.php:152
+msgid "The username for HTTP basic authentication to the Listmonk API."
+msgstr "Der Benutzername für die HTTP-Basisauthentifizierung zur Listmonk-API."
+
+#: includes/class-listmonk-addon.php:159
+msgid "The password/token for HTTP basic authentication to the Listmonk API."
+msgstr "Das Passwort/Token für die HTTP-Basisauthentifizierung zur Listmonk-API."
+
+#: includes/class-listmonk-addon.php:171
+msgid "When enabled, subscribers will be automatically confirmed without requiring email confirmation."
+msgstr "Wenn aktiviert, werden Abonnenten automatisch bestätigt, ohne dass eine E-Mail-Bestätigung erforderlich ist."
+
+#: includes/class-listmonk-addon.php:242
+msgid "Hold Ctrl/Cmd to select multiple lists that will always receive the subscriber. %s"
+msgstr "Strg/Cmd gedrückt halten, um mehrere Listen auszuwählen, die den Abonnenten immer erhalten. %s"
+
+#: includes/class-listmonk-addon.php:243
+msgid "Learn about Listmonk lists"
+msgstr "Mehr über Listmonk-Listen erfahren"
+
+#: includes/class-listmonk-addon.php:252
+msgid "Optional field whose submitted values resolve to List IDs (comma-separated, JSON, or checkbox selections). The List ID can be found in your Listmonk admin panel."
+msgstr "Optionales Feld, dessen übermittelte Werte List-IDs entsprechen (kommagetrennt, JSON oder Checkbox-Auswahl). Die Listen-ID findest du in deinem Listmonk-Admin-Panel."
+
+#: includes/class-listmonk-addon.php:851
+msgid "Listmonk Integration:"
+msgstr "Listmonk-Integration:"
+
+#: includes/class-listmonk-addon.php:855
+msgid "You have active Listmonk feeds but credentials are not configured. Please configure your API credentials in the %s."
+msgstr "Du hast aktive Listmonk-Feeds, aber die Zugangsdaten sind nicht konfiguriert. Bitte konfiguriere deine API-Zugangsdaten in den %s."
+
+#: includes/class-listmonk-addon.php:856
+msgid "Listmonk settings"
+msgstr "Listmonk-Einstellungen"
